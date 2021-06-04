@@ -10,6 +10,6 @@ switch (a) {
     case 5:
         console.log( 'Too Large' );
         break;
-        default:
-            console.log|(" I don't know such values");
+    default:
+        console.log|(" I don't know such values");
 }
