@@ -1,11 +1,18 @@
-const apples = 'apples';
-const oranges = 'oranges';
-let isEqual;
+// const apples = 'apples';
+// const oranges = 'oranges';
+// let isEqual;
 
-isEqual = apples === oranges;
+// isEqual = apples === oranges;
 
-console.log('Are apples and oranges the same? ' +isEqual);
+// console.log('Are apples and oranges the same? ' +isEqual);
 
-isEqual = apples !== oranges;
+// isEqual = apples !== oranges;
 
-console.log('Are apples and oranges not the same? ' +isEqual);
+// console.log('Are apples and oranges not the same? ' +isEqual);
+const yourAge = 40;
+const drivingAge = 18;
+let canDrive;
+canDrive = yourAge > drivingAge;
+
+console.log('I am old enough to drive? ' +canDrive);
+console.log('I am old enough to drive? ' + (yourAge > drivingAge) );

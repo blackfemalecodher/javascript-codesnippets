@@ -1,4 +1,4 @@
-let a = 2 + 2;
+let a = 2 + 7;
 
 switch (a) {
     case 3:
